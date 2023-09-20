@@ -2,6 +2,8 @@ package net.kodie.naturamagicae;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.kodie.naturamagicae.item.ModItemGroups;
+import net.kodie.naturamagicae.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,6 +13,7 @@ public class NaturaMagicae implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello Fabric world!");
+		ModItemGroups.registerItemGroups();
+        ModItems.registerModItems();
 	}
 }
