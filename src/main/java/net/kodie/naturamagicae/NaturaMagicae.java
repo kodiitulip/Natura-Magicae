@@ -2,6 +2,7 @@ package net.kodie.naturamagicae;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.kodie.naturamagicae.block.ModBlocks;
 import net.kodie.naturamagicae.item.ModItemGroups;
 import net.kodie.naturamagicae.item.ModItems;
 import org.slf4j.Logger;
@@ -14,6 +15,8 @@ public class NaturaMagicae implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
+
         ModItems.registerModItems();
+        ModBlocks.registerModBlocks();
 	}
 }

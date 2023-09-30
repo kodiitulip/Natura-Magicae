@@ -2,6 +2,7 @@ package net.kodie.naturamagicae.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.kodie.naturamagicae.NaturaMagicae;
+import net.kodie.naturamagicae.block.ModBlocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
@@ -17,6 +18,8 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.CHALK)).entries((displayContext, entries) -> {
                         entries.add(ModItems.CHALK);
                         entries.add(ModItems.LEAF);
+
+                        entries.add(ModBlocks.CHALK_BLOCK);
 
                     }).build());
 

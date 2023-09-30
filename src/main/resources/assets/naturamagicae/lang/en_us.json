@@ -1,5 +1,7 @@
 {
-  "item.naturamagicae.leaf": "Leaf",
+  "block.naturamagicae.chalk_block": "Chalk Block",
   "item.naturamagicae.chalk": "Chalk",
+  "item.naturamagicae.chalk_block": "Chalk Block",
+  "item.naturamagicae.leaf": "Leaf",
   "itemgroup.natura": "Natura Magicae"
 }
