@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "naturamagicae:item/hammer"
+    "layer0": "naturamagicae:item/leaf"
   }
 }

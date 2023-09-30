@@ -16,7 +16,7 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.natura"))
                     .icon(() -> new ItemStack(ModItems.CHALK)).entries((displayContext, entries) -> {
                         entries.add(ModItems.CHALK);
-                        entries.add(ModItems.HAMMER);
+                        entries.add(ModItems.LEAF);
 
                     }).build());
 
